@@ -1,0 +1,56 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import DisplayAllItems from './components/DisplayAllItems';
+import AddNewItem from './components/AddNewItem';
+import UpdateItem from './components/UpdateItem';
+import Contact from './components/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+
+function App() {
+  return (
+    <Router>
+      <div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <a className="navbar-brand" href="/">Pizza Store</a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+               <h5> <a className="nav-link" href="/">Home</a></h5>
+              </li>
+              <li className="nav-item">
+                <h5><a className="nav-link" href="/about">About</a></h5>
+              </li>
+              <li className="nav-item">
+               <h5> <a className="nav-link" href="/display">Display All Items</a></h5>
+              </li>
+              <li className="nav-item">
+                <h5><a className="nav-link" href="/add">Add New Item</a></h5>
+              </li>
+              <li className="nav-item">
+                <h5><a className="nav-link" href="/contact">Contact</a></h5>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div className="container mt-4">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/display" element={<DisplayAllItems />} />
+            <Route path="/add" element={<AddNewItem />} />
+            <Route path="/update/:id" element={<UpdateItem />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
+}
+export default App;
+

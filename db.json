@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "name": "Margherita",
+      "price": "100",
+      "description": "Classic cheese pizza with tomato sauce.",
+      "id": "1"
+    },
+    {
+      "name": "Pepperoni",
+      "price": "100",
+      "description": "Spicy pepperoni with mozzarella cheese and tomato sauce.",
+      "id": "2"
+    },
+    {
+      "name": "Chicken",
+      "price": "120",
+      "description": "Grilled chicken with BBQ sauce, red onions, and cilantro.",
+      "id": "3"
+    },
+    {
+      "name": "Veggie Supreme",
+      "price": "120",
+      "description": "Loaded with bell peppers, mushrooms, onions, and olives.",
+      "id": "4"
+    },
+    {
+      "name": "Hawaiian",
+      "price": "150",
+      "description": "Ham and pineapple with cheese and tomato sauce.",
+      "id": "5"
+    },
+    {
+      "name": "Meat Lover",
+      "price": "180",
+      "description": "A hearty pizza with pepperoni, sausage, bacon, and ham.",
+      "id": "6"
+    },
+    {
+      "name": "Four Cheese",
+      "price": "110",
+      "description": "A blend of mozzarella, cheddar, parmesan, and goat cheese.",
+      "id": "7"
+    },
+    {
+      "name": "Roasted Chicken",
+      "price": "130",
+      "description": "Spicy roasted chicken with a ranch drizzle.",
+      "id": "8"
+    },
+    {
+      "name": "Veg",
+      "price": 300,
+      "description": "asdfgh",
+      "id": "9"
+    }
+  ]
+}

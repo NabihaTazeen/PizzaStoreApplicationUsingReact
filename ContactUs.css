@@ -1,0 +1,32 @@
+.contact-us-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .store-details,
+  .contact-form,
+  .store-info {
+    margin-bottom: 20px;
+  }
+  
+  .store-details h2,
+  .contact-form h2,
+  .store-info h2 {
+    color: #dc3545;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #dc3545;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
